@@ -195,18 +195,14 @@ void loop(void)
 //            Serial.println(s);
             
             
-            if (((s-1) != sTemp) && s!=sTemp){
-              if(s !=0){
-                sTemp = s;
-                myRTC.setDS1302Time(s-1, m, h, 7, dd, mm, yy);
-                Serial.println("===========================");
-                //delay(2000);
-  //              Serial.print(sTemp);
-  //              Serial.print(" ");
-  //              Serial.println(s);
-              }
+//            if (((s-1) != sTemp) && s!=sTemp){
+//              if(s !=0){
+//                sTemp = s;
+//                myRTC.setDS1302Time(s-1, m, h, 7, dd, mm, yy);
+//                Serial.println("===========================");
+//              }
               
-            }
+//            }
 
             sTemp = s;
             
